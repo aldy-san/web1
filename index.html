@@ -1,23 +1,214 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ceritanya OLSHOP</title>
+	<title>Ceritanya WeebSite</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="box">
-		<header>
-			<i class="head-cont"><img  src="sb.png"></i>
-			<h2 class="head-cont">OL<span>SHOP</span></h2>
-			<form class="head-cont">
-				<input class="search-box" type="search" placeholder="Cari apa bang?">
-				<button class="search-btn">Search</button>
-			</form>
-			<i class="head-cont"><img class="profile-photo"  src="pp.jpg"></i>
-		</header>
-		<div class="content">
-			
+		<div class="inner-box">
+			<header>
+				<i class="head-cont"><img class="icon" src="sb.png"></i>
+				<h2 class="head-cont">WEEB<span>SITE</span></h2>
+				<form class="head-cont">
+					<input class="search-box" type="search" placeholder="Cari anime apa bang?">
+					<button class="search-btn">Search</button>
+				</form>
+				<i class="head-cont"><img class="profile-photo icon"  src="pp.jpg"></i>
+			</header>
+			<div class="side-box">
+				<div class="inner-box">
+					<h2 class="side-head"><span>NEW</span> RELEASED</h2>
+					<div class="side-content">
+						<a class="anime" href="">
+							<div class="content-list">
+								<img class="img-side" src="kw.png">
+								<h4>Kimi no Nawa</h4>
+								<span>Jan 5, 2020</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="content-list">
+								<img class="img-side" src="kw.png">
+								<h4>Kimi no Nawa</h4>
+								<span>Jan 5, 2020</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="content-list">
+								<img class="img-side" src="kw.png">
+								<h4>Kimi no Nawa</h4>
+								<span>Jan 5, 2020</span>
+							</div>
+						</a>
+						<span><a class="more" href="" >More..</a></span>
+
+					</div>	
+				</div>	
+			</div>
+			<div class="content">
+				<div class="content-box">
+					<h1 class="content-head"><span>ANIME</span> SUMMER 2020</h1>
+					<div class="cont-slider">
+						<div class="slide" id="slide-1">
+							<div class="slide-box">
+								<h2 class="slide-title">Solo Leveling</h2>
+								<span class="updates">Setiap Kamis, 04.00</span>
+							</div>
+							<a class="download-btn" href="">Download</a>
+						</div>
+						<div class="slide" id="slide-2">
+							<div class="slide-box">
+								<h2 class="slide-title">Kimi no Nawa</h2>
+								<span class="updates">Tayang Minggu, 05.00</span>
+							</div>
+							<a class="download-btn" href="">Download</a>
+						</div>
+						<div class="slide" id="slide-3">
+							<div class="slide-box">
+								<h2 class="slide-title">Kono Subarashi Isekai</h2>
+								<span class="updates">Setiap Sabtu, 12.00</span>
+							</div>
+							<a class="download-btn" href="">Download</a>
+						</div>
+						<div class="slide" id="slide-4">
+							<div class="slide-box">
+								<h2 class="slide-title">Oregairu Season 3</h2>
+								<span class="updates">Setiap Senin, 04.00</span>
+							</div>
+							<a class="download-btn" href="">Download</a>
+						</div>
+						<div class="slide" id="slide-5">
+							<div class="slide-box">
+								<h2 class="slide-title">Danmachi Gaiden Season 3</h2>
+								<span class="updates">Setiap Rabu, 14.00</span>
+							</div>
+							<a class="download-btn" href="">Download</a>
+						</div>
+						<div class="dot-list">
+						  <span class="dot" onclick="currentSlide(1)"></span> 
+						  <span class="dot" onclick="currentSlide(2)"></span> 
+						  <span class="dot" onclick="currentSlide(3)"></span> 
+						  <span class="dot" onclick="currentSlide(4)"></span> 
+						  <span class="dot" onclick="currentSlide(5)"></span> 
+						</div>
+					</div>
+				</div>
+				<div class="content-box">
+					<h1 class="content-head"><span>ANIME</span> MOVIE</h1>
+					<div class="bottom-list">
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="nw.jpg">
+								<h4 class="title">A Whisker Away</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="nw.jpg">
+								<h4 class="title">A Whisker Away</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="nw.jpg">
+								<h4 class="title">A Whisker Away</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="nw.jpg">
+								<h4 class="title">A Whisker Away</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="nw.jpg">
+								<h4 class="title">A Whisker Away</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="nw.jpg">
+								<h4 class="title">A Whisker Away</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						
+						<span><a class="more" href="" >More..</a></span>
+					</div>
+				</div>
+				<div class="content-box">
+					<h1 class="content-head"><span>ANIME</span> LIVE ACTION</h1>
+					<div class="bottom-list">
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="wk.png">
+								<h4 class="title">Wotaku ni Koi</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="wk.png">
+								<h4 class="title">Wotaku ni Koi</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="wk.png">
+								<h4 class="title">Wotaku ni Koi</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="wk.png">
+								<h4 class="title">Wotaku ni Koi</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="wk.png">
+								<h4 class="title">Wotaku ni Koi</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<a class="anime" href="">
+							<div class="bottom-box">
+								<img class="list-img" src="wk.png">
+								<h4 class="title">Wotaku ni Koi</h4>
+								<span class="rating">Rate: 7.4/10</span>
+							</div>
+						</a>
+						<span><a class="more" href="" >More..</a></span>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="inner-footer">
+					<div class="footer-card">
+						<h2>TENTANG SAYA</h2>
+						<div class="footer-desc">
+							<p>Hanya seorang yang kuliah informatika dan gabut ingin membuat website dan ingin jadi game developer</p>
+						</div>
+					</div>
+					<div class="footer-card">
+						<h2>SOCIAL MEDIA</h2>
+					</div>
+					<div class="footer-card">
+						<h2>KRITIK DAN SARAN</h2>
+					</div>
+					</div>
+			</footer>
 		</div>
-	</div>
+		<script src="slide.js"></script>
 </body>
 </html>
