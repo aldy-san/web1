@@ -130,27 +130,27 @@ header .head-cont{
 	font-size: 45px;
 }
 .cont-slider #slide-1{
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("res/sl.jpg");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(sl.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .cont-slider #slide-2{
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("res/kw.png");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(kw.png);
 	background-size: cover;
 	background-position: center;
 }
 .cont-slider #slide-3{
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("res/ks.jpg");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(ks.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .cont-slider #slide-4{
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("res/ore.png");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(ore.png);
 	background-size: cover;
 	background-position: center;
 }
 .cont-slider #slide-5{
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("res/dg.jpg");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(dg.jpg);
 	background-size: cover;
 	background-position: top;
 }
@@ -196,12 +196,10 @@ header .head-cont{
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;
-	transition: 0.6s ease;
+	transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
   background-color: orange;
-  width: 40px;
-  border-radius: 20px;
 }
 /*SIDE BOX CONTENT*/
 .side-box{
