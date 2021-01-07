@@ -340,3 +340,10 @@ footer .inner-footer .footer-card .footer-desc ul{
 	background: orange;
 	color:white;
 }
+.link-porto{
+	color:white;
+	text-decoration: none;
+}
+.link-porto:hover{
+	text-decoration:underline;
+}
